@@ -1,0 +1,59 @@
+.effect {
+  background: #1d72d2;
+  margin-top: 120px;
+}
+
+.effect_title {
+  font-weight: 700;
+  font-size: 54px;
+  text-align: center;
+  color: #fff;
+  padding-top: 70px;
+}
+
+.effect_description {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.45;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  padding-top: 20px;
+}
+
+.effect_number {
+  font-weight: 500;
+  font-size: 80px;
+  color: #fff;
+}
+
+.number_description {
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 8px;
+}
+
+
+.effect_wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+
+@media screen and (max-width: 798px) {
+    .effect_title {
+        font-size: 40px;
+        padding-top: 120px;
+    }
+    .effect_description {
+        font-size: 16px;
+    }
+    .effect_wrapper{
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+      row-gap: 80px;
+    }
+  
+}

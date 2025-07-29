@@ -1,0 +1,115 @@
+.learning_title {
+  font-weight: 700;
+  font-size: 54px;
+  text-align: center;
+  color: #323a56;
+  margin-top: 210px;
+  span {
+    color: #1d72d2;
+  }
+}
+
+.learning_wrapper {
+  border: 1px solid #8a90a5;
+  border-radius: 10px;
+  width: auto;
+  height: 586px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-top: 60px;
+}
+.learning_description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.45;
+  text-align: center;
+  color: #8a90a5;
+  margin-top: 20px;
+}
+
+.learning_box {
+  border: 1px solid #eff2f7;
+  border-radius: 6px;
+  width: 320px;
+  height: 380px;
+  box-shadow: 0 10px 16px 0 rgba(32, 81, 137, 0.06);
+  background: #fff;
+}
+
+.learning_image {
+  padding: 20px 20px 20px;
+}
+.play_btn {
+  border-radius: 4px;
+  padding: 4px 6px;
+  width: 44px;
+  height: 23px;
+  background: #eff2f7;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  color: #1d72d2;
+  border: none;
+  margin-left: 20px;
+}
+
+.verified {
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  color: #1d72d2;
+}
+
+.cape {
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  color: #1d72d2;
+}
+
+.buttons_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.box_title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #323a56;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.box_price {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #313647;
+  margin: 0;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+
+
+@media screen and (max-width: 1272px) {
+    .learning_wrapper {
+        flex-direction: column;
+
+        height: auto;
+    }
+   
+    
+}
+
+
+@media screen and (max-width: 356px) {
+    .learning_box {
+        width: 250px;
+    }
+    
+}

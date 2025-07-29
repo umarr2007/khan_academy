@@ -1,0 +1,90 @@
+header {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+  background: #fff;
+  height: 86px;
+}
+
+.nav_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-top: 30px;
+  padding: 0 20px;
+  //   flex-wrap: wrap;
+}
+
+.nav-li {
+  display: flex;
+  gap: 45px;
+  align-items: center;
+}
+
+.nav-li li {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #323a56;
+}
+.nav_button {
+  display: flex;
+  gap: 45px;
+}
+
+.btn_language {
+  border: 1px solid #eff2f7;
+  border-radius: 4px;
+  padding: 6px 10px;
+  width: 61px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  color: #323a56;
+}
+
+.btn_login {
+  border: 1px solid #eff2f7;
+  border-radius: 4px;
+  padding: 6px 10px;
+  width: 61px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  color: #323a56;
+}
+
+.fa-bars {
+  display: none;
+  font-size: 22px;
+  color: #323a56;
+}
+
+@media screen and (max-width: 1154px) {
+  .nav_wrapper {
+    gap: 70px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .nav_wrapper {
+    gap: 50px;
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 1292px) {
+  .nav-li li {
+    display: none;
+  }
+
+  .fa-magnifying-glass {
+    display: none;
+  }
+
+  .nav_button {
+    display: none;
+  }
+}

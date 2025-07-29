@@ -1,0 +1,58 @@
+.draft {
+  margin-top: 110px;
+}
+
+.draft_component {
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #1d72d2;
+}
+
+.draft_title {
+  font-weight: 700;
+  font-size: 54px;
+  text-align: center;
+  color: #323a56;
+  margin-top: 20px;
+  span {
+    color: #1d72d2;
+  }
+}
+
+.draft_description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.61111;
+  text-align: center;
+  color: #8a90a5;
+  margin-top: 20px;
+}
+
+.draft_btn {
+  border-radius: 8px;
+  padding: 20px 40px;
+  width: 180px;
+  height: 64px;
+  background: #1d72d2;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.61111;
+  text-align: center;
+  color: #fff;
+  margin-top: 40px;
+  border: none;
+}
+
+.draft_btn_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.draft_wrapper {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
